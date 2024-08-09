@@ -4,9 +4,10 @@ package com.xiuzi.shortlink.admin.controller;
  * 用户管理控制层
  * */
 
+import cn.hutool.core.bean.BeanUtil;
 import com.xiuzi.shortlink.admin.common.convention.result.Result;
 import com.xiuzi.shortlink.admin.common.convention.result.Results;
-import com.xiuzi.shortlink.admin.common.enums.UserErrorCodeEnum;
+import com.xiuzi.shortlink.admin.dto.resp.UserActualRespDTO;
 import com.xiuzi.shortlink.admin.dto.resp.UserRespDTO;
 import com.xiuzi.shortlink.admin.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -26,11 +27,24 @@ public class UserController {
      */
     @GetMapping("/api/shortlink/v1/user/{username}")//@RequestMapping 默认值为 GET
     public Result<UserRespDTO> getUserByUserName(@PathVariable("username") String username) {
-        UserRespDTO result = userService.getUserByUsername(username);
-        if (result == null){
-            return new Result<UserRespDTO>().setCode(UserErrorCodeEnum.USER_NULL.code()).setMessage(UserErrorCodeEnum.USER_NULL.message());
-        } else {
-            return Results.success(result);
-        }
+//        UserRespDTO result = userService.getUserByUsername(username);
+//        if (result == null){
+//            return new Result<UserRespDTO>().setCode(UserErrorCodeEnum.USER_NULL.code()).setMessage(UserErrorCodeEnum.USER_NULL.message());
+//        } else {
+//            return Results.success(result);
+//        }
+        return Results.success(userService.getUserByUsername(username));
+
     }
+    /**
+     * 根据用户名查询用户无脱敏信息
+     */
+    @GetMapping("/api/shortlink/v1/actual/user/{username}")//@RequestMapping 默认值为 GET
+    public Result<UserActualRespDTO> getActualUserByUserName(@PathVariable("username") String username) {
+            return Results.success(BeanUtil.toBean(userService.getUserByUsername(username),
+                    UserActualRespDTO.class));
+
+    }
+
+
 }

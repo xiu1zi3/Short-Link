@@ -16,7 +16,4 @@ public interface UserService extends IService<UserDO> {
      * @return 用户名返回实体
      * 根据用户名查询用户信息
      */
-    //    UserRespDTO getUserByUsername(String username) {
-//        return null;
-//    }
 }
