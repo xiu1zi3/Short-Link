@@ -3,35 +3,35 @@
     <el-container>
       <el-header height="54px" style="padding: 0">
         <div class="header">
-          <div @click="toMySpace" class="logo">拿个offer-SaaS短链接@马丁</div>
+          <div @click="toMySpace" class="logo">短链跟踪系统</div>
           <div style="display: flex; align-items: center">
+<!--            <a-->
+<!--              class="link-span"-->
+<!--              style="text-decoration: none"-->
+<!--              target="_blank"-->
+<!--              href="https://xiuzi.com/shortlink/"-->
+<!--              >官方文档</a-->
+<!--            >-->
+<!--            <a-->
+<!--              class="link-span"-->
+<!--              style="text-decoration: none"-->
+<!--              target="_blank"-->
+<!--              href="https://xiuzi.com/group/"-->
+<!--              >加沟通群</a-->
+<!--            >-->
             <a
-              class="link-span"
-              style="text-decoration: none"
-              target="_blank"
-              href="https://nageoffer.com/shortlink/"
-              >官方文档</a
-            >
-            <a
-              class="link-span"
-              style="text-decoration: none"
-              target="_blank"
-              href="https://nageoffer.com/group/"
-              >加沟通群</a
+                class="link-span"
+                style="text-decoration: none"
+                target="_blank"
+                href="https://www.cnblogs.com/xiu1zi3"
+            >📖博客</a
             >
             <a
                 class="link-span"
                 style="text-decoration: none"
                 target="_blank"
-                href="https://nageoffer.com/shortlink/video/"
-            >🔥视频教程</a
-            >
-            <a
-                class="link-span"
-                style="text-decoration: none"
-                target="_blank"
-                href="http://shortlink.magestack.cn"
-            >演示环境</a
+                href="https://github.com/xiu1zi3/Short-Link"
+            >GitHub</a
             >
             <el-dropdown>
               <div class="block">

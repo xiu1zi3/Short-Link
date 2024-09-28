@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.nageoffer.shortlink.admin.test;
+package com.xiuzi.shortlink.admin.test;
 
 public class UserTableShardingTest {
 
