@@ -1,10 +1,12 @@
 <p align="center">
-   <img width="180" src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929005749151-551569963.jpg" alt="logo">
+   <img width="280" src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929023324944-1075527243.png" alt="logo">
 </p>
 
 
 <h4 align="center">短链跟踪系统</h4>
-
+<p align="center">
+   <img width="180" src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929005749151-551569963.jpg" alt="logo">
+</p>
 短链接经常出现在日常生活中，可以注意到营销短信当中常常是短链接
 
 除了节省了文本长度，对短链接跟踪记录的数据还可以识别用户行为、点击率等关键信息，具有商业意义
@@ -64,7 +66,7 @@ Mac 通常是 `/etc`目录下， Windows 通常是`C:\Windows\System32\drivers\e
 npm run dev
 ```
 顺利启动后，打开 Local: 后所接的链接即可进入～
-
+<img src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929023141570-1316637928.png" alt="图片alt" title="图片title">
 如果你进一步开发，那么启动前需要再次安装依赖
 ```
 npm install
