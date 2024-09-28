@@ -1,0 +1,5 @@
+com/xiuzi/shortlink/gateway/dto/GatewayErrorResult$GatewayErrorResultBuilder.class
+com/xiuzi/shortlink/gateway/filter/TokenValidateGatewayFilterFactory.class
+com/xiuzi/shortlink/gateway/dto/GatewayErrorResult.class
+com/xiuzi/shortlink/gateway/config/Config.class
+com/xiuzi/shortlink/gateway/GatewayServiceApplication.class
