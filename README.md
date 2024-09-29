@@ -1,5 +1,6 @@
+
 <p align="center">
-   <img width="280" src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929023324944-1075527243.png" alt="logo">
+   <img width="280" src="https://ice2604-navi.github.io/img/shortUrl.png" alt="logo">
 </p>
 
 
@@ -10,6 +11,10 @@
 短链接经常出现在日常生活中，可以注意到营销短信当中常常是短链接，节省了文本长度
 
 更重要的是，短链接跟踪记录的数据还可以用来识别用户行为、点击率等关键信息，这是很有意义的
+
+---
+
+博客：[欢迎体验ShortLink !](https://www.cnblogs.com/xiu1zi3/p/18438747)
 
 ## 本地开始
 
@@ -66,7 +71,11 @@ Mac 通常是 `/etc`目录下， Windows 通常是`C:\Windows\System32\drivers\e
 npm run dev
 ```
 顺利启动后，打开 Local: 后所接的链接即可进入～
+<br>
 <img src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929023141570-1316637928.png" alt="图片alt" title="图片title">
+
+<img src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929023324944-1075527243.png" alt="图片alt" title="图片title">
+<br>
 如果你进一步开发，那么启动前需要再次安装依赖
 ```
 npm install
