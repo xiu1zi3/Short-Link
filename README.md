@@ -12,13 +12,14 @@
 
 更重要的是，短链接跟踪记录的数据还可以用来识别用户行为、点击率等关键信息，这是很有意义的
 
+📖 博客：[欢迎体验ShortLink !](https://www.cnblogs.com/xiu1zi3/p/18438747)
+
 ---
 
-博客：[欢迎体验ShortLink !](https://www.cnblogs.com/xiu1zi3/p/18438747)
 
 ## 本地开始
 
-### 启动后端
+### 🚀 启动后端
 
 
 #### 数据库配置适应本地
@@ -77,6 +78,7 @@ npm run dev
 <img src="https://img2024.cnblogs.com/blog/3387348/202409/3387348-20240929023324944-1075527243.png" alt="图片alt" title="图片title">
 <br>
 如果你进一步开发，那么启动前需要再次安装依赖
+
 ```
 npm install
 npm run dev
