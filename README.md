@@ -12,7 +12,9 @@
 
 更重要的是，短链接跟踪记录的数据还可以用来识别用户行为、点击率等关键信息，这是很有意义的
 
-📖 博客：[欢迎体验ShortLink !](https://www.cnblogs.com/xiu1zi3/p/18438747)
+> 如果当前图片 **不显示** 或 **加载缓慢**，请移步下面的 **博客文档** 📖
+
+欢迎体验ShortLink ! 🔗 [cnblogs.com/xiu1zi3/p/18438747](https://www.cnblogs.com/xiu1zi3/p/18438747)
 
 ---
 
